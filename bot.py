@@ -49,9 +49,9 @@ class AdminOnlyBot:
         """Load config"""
         if not os.path.exists(self.config_file):
             config = {
-                "API_ID": "21552265",
-                "API_HASH": "1c971ae7e62cc416ca977e040e700d09",
-                "BOT_TOKEN": "7870678989:AAEi4k5OrTnMD5Rcd1BWz4xLfMqlFUcgE7M",
+                "API_ID": "36784359",
+                "API_HASH": "bf8ce0c575b02bde5ce419944b0e7ea8",
+                "BOT_TOKEN": "8746899720:AAGEKqRTQyJCXJ2OExmckEYjdhAlz5BZgOk",
                 "ADMIN_IDS": [7302427268, 8627378748],
                 "ADMIN_PASSWORD": "Smoke010",
                 "AUTO_RETRY": True,
@@ -880,8 +880,17 @@ async def text_handler(event):
         session, msg = await bot.export_session(account_name)
         
         if session:
-            export_msg = f"""📥 **SESSION EXPORTED**
+           export_msg = f"""📥 SESSION EXPORTED
 
-Account: `{account_name}`
+Account: {account_name}
 
-**Session String:**
+Session String:
+{session}
+
+How to use:
+1. Save this string
+2. Use 'Import Session'
+3. Paste this string
+
+⚠️ Keep this secret!
+"""
