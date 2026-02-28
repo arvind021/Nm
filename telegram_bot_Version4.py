@@ -49,11 +49,11 @@ class AdminOnlyBot:
         """Load config"""
         if not os.path.exists(self.config_file):
             config = {
-                "API_ID": "ENTER_HERE",
-                "API_HASH": "ENTER_HERE",
-                "BOT_TOKEN": "ENTER_HERE",
-                "ADMIN_IDS": [123456789, 987654321],
-                "ADMIN_PASSWORD": "ENTER_SECURE_PASSWORD",
+                "API_ID": "21552265",
+                "API_HASH": "1c971ae7e62cc416ca977e040e700d09",
+                "BOT_TOKEN": "7870678989:AAEi4k5OrTnMD5Rcd1BWz4xLfMqlFUcgE7M",
+                "ADMIN_IDS": [7302427268, 8627378748],
+                "ADMIN_PASSWORD": "Smoke010",
                 "AUTO_RETRY": True,
                 "MAX_RETRIES": 5,
                 "SESSION_TIMEOUT": 3600
