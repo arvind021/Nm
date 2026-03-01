@@ -85,10 +85,10 @@ class UltraBot:
 
     def load_config(self):
         defaults = {
-            "API_ID": "ENTER_HERE",
-            "API_HASH": "ENTER_HERE",
-            "BOT_TOKEN": "ENTER_HERE",
-            "ADMIN_IDS": [],
+            "API_ID": "36784359",
+            "API_HASH": "bf8ce0c575b02bde5ce419944b0e7ea8",
+            "BOT_TOKEN": "8746899720:AAGEKqRTQyJCXJ2OExmckEYjdhAlz5BZgOk",
+            "ADMIN_IDS": [7967825682,8627378748],
             "ADMIN_PASSWORD": "ENTER_HERE",
             "SESSION_TIMEOUT": 3600,
             "MAX_RETRIES": 5,
