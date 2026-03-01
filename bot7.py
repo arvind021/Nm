@@ -88,7 +88,7 @@ class UltraBot:
             "API_ID": "36784359",
             "API_HASH": "bf8ce0c575b02bde5ce419944b0e7ea8",
             "BOT_TOKEN": "8746899720:AAGEKqRTQyJCXJ2OExmckEYjdhAlz5BZgOk",
-            "ADMIN_IDS": [7967825682,8627378748],
+            "ADMIN_IDS": [7967825682,8627378748,8173944143],
             "ADMIN_PASSWORD": "ENTER_HERE",
             "SESSION_TIMEOUT": 3600,
             "MAX_RETRIES": 5,
